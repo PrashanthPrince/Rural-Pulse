@@ -1,0 +1,29 @@
+/* [project]/app/style/Product.css [app-client] (css) */
+.prose img {
+  vertical-align: middle;
+  max-width: 220px;
+  margin-bottom: 0;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: gray;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/*# sourceMappingURL=app_style_Product_ab19abf7.css.map*/

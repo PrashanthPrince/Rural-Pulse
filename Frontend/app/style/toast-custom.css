@@ -1,0 +1,71 @@
+.Toastify__toast-body {
+  padding: 0 !important;
+}
+
+.Toastify__toast {
+  min-width: fit-content !important;
+  font-family: inherit !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.toast-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+/* Standalone mascot image - no background */
+.toast-mascot {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.toast-mascot img {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: contain;
+}
+
+/* Toast content box with background */
+.toast-content {
+  flex-shrink: 0;
+  padding: 16px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.toast-content p {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/* Success toast */
+.Toastify__toast--success .toast-content {
+  background: #16a34a !important;
+}
+
+/* Error toast */
+.Toastify__toast--error .toast-content {
+  background: #dc2626 !important;
+}
+
+/* Warning toast */
+.Toastify__toast--warning .toast-content {
+  background: #ea580c !important;
+}
+
+/* Info toast */
+.Toastify__toast--info .toast-content {
+  background: #0891b2 !important;
+}
+

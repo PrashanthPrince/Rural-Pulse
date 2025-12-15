@@ -1,0 +1,12 @@
+/* styles/login.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-farm {
+  background-image: url('/images/farm-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+}

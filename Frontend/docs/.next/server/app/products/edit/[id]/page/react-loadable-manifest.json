@@ -1,0 +1,9 @@
+{
+  "[project]/node_modules/@uiw/react-md-editor/esm/index.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/node_modules/@uiw/react-md-editor/esm/index.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_@uiw_react-md-editor_esm_index_a699e00a.js",
+      "static/chunks/node_modules_@uiw_react-md-editor_esm_index_e7c6996f.js"
+    ]
+  }
+}

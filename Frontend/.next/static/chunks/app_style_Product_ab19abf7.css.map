@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///D:/B-Sec/Projects/Rural%20Pulse/Frontend/app/style/Product.css"],"sourcesContent":["/* Display images in product description horizontally */\r\n.prose img {\r\n  display: inline-block;\r\n  margin-right: 16px;\r\n  margin-bottom: 0;\r\n  vertical-align: middle;\r\n  max-width: 220px;\r\n}\r\n/* Remove custom toolbar background and color to allow default dark theme and heading icons */\r\na.disabled {\r\n  pointer-events: none;  /* no clicking */\r\n  cursor: default;       /* no hand cursor */\r\n  color: gray;           /* optional: make it look disabled */\r\n  text-decoration: none; /* remove underline */\r\n  user-select: none;     /* no text highlighting */\r\n}\r\n\r\n.hide-scrollbar::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n.hide-scrollbar {\r\n  -ms-overflow-style: none;\r\n  scrollbar-width: none;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;AAQA;;;;;;;;;;AAQA;;;;AAGA","debugId":null}}]
+}

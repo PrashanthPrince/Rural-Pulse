@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+*.log
+build/
+dist/
+.pnp
+.pnp.js

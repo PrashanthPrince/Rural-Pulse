@@ -1,0 +1,24 @@
+/* Display images in product description horizontally */
+.prose img {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  max-width: 220px;
+}
+/* Remove custom toolbar background and color to allow default dark theme and heading icons */
+a.disabled {
+  pointer-events: none;  /* no clicking */
+  cursor: default;       /* no hand cursor */
+  color: gray;           /* optional: make it look disabled */
+  text-decoration: none; /* remove underline */
+  user-select: none;     /* no text highlighting */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
