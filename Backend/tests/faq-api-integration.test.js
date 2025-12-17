@@ -3,6 +3,9 @@
  * Tests all FAQ API endpoints with mocked Strapi responses
  */
 
+// Added this line to test merging my daily branch to the main branch
+// Adding one more line to test the merge
+
 const axios = require("axios");
 
 // Mock axios to simulate Strapi responses

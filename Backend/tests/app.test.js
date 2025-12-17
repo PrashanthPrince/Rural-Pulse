@@ -1,3 +1,6 @@
+// Added this line to test merging my daily branch to the main branch
+// Adding one more line to test the merge
+
 const request = require("supertest");
 const { app, pool } = require("../src/app");
 
